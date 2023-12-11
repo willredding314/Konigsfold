@@ -1,0 +1,61 @@
+{
+    "docs-years" : {
+        "Seven Bridges of Konigsburg": 1736, 
+        "Knot Theory": 1771, 
+        "Mereotopology": 1916, 
+        "Simplex": 1886, 
+        "Maer-Vietoris Sequence": 1952, 
+        "Pontryagin Duality": 1934, 
+        "Cech Cohomology": 1936, 
+        "Alexsander-Spainer Cohomology": 1948, 
+        "Digital Topology": 1973, 
+        "Topological Quantum Computing": 1997,
+        "Racks and quandles": 1943, 
+        "Writhe": 1959, 
+        "Poincare Conjecture": 1904, 
+        "Haken manifold": 1961, 
+        "Heegaard Splitting": 1898, 
+        "Baire Category Theorum": 1899, 
+        "K-Theory": 1957, 
+        "Bott periodicity theorum": 1957, 
+        "Homology": 1857, 
+        "Cohomology": 1920, 
+        "Grothendieck-Riemann-Roch theorem": 1958   
+    }, 
+    "topic-relevance: Algabraic Topology": [
+        "Simplex", 
+        "Maer-Vietoris Sequence", 
+        "Pontryagin Duality", 
+        "Cech Cohomology", 
+        "Alexsander-Spainer Cohomology", 
+        "Bott periodicity theorum", 
+        "K-theory", 
+        "Grothendieck-Riemann-Roch theorem",
+        "Baire Category Theorum", 
+        "Homology", 
+        "Cohomology", 
+        "Algabraic Topology"
+    ], 
+    "topic-relevance: Cohomology": [
+        "Simplex", 
+        "Maer-Vietoris Sequence", 
+        "Pontryagin Duality", 
+        "Cech Cohomology", 
+        "Alexsander-Spainer Cohomology"
+    ], 
+    "topic-relevance: Geometric Topology": [
+        "Knot Theory", 
+        "Heegaard Splitting", 
+        "Writhe", 
+        "Poincare Conjecture", 
+        "Haken Manifold"
+    ], 
+    "document-relevance": [ 
+        "Knot Theory", 
+        "Mereotopology",
+        "Simplex", 
+        "K-Theory",
+        "Homology",
+        "Cohomology"
+    ]
+}
