@@ -11,18 +11,11 @@ dater = d.Dater()
 grapher = g.Grapher()
 out = o.OutputGenerator()
 
-corpus = corpus_assembler.assemble("Topology")
-file1 = open('corpus-topology.txt', 'r')
+file1 = open('evaluation-dates-topology.txt', 'r')
 lines = file1.readlines()
 
-rel = 0
-count = 0
-
 for line in lines:
-    count += 1
-    if "- REL" in line:
-        rel += 1
-
-print(rel)
-print(count)
-print(rel/count)
+    terms = line.split(":")
+    term = terms[0]
+    date = dater.dateDocument(term)
+    print(term + " " + str(date))
