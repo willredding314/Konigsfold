@@ -1,7 +1,13 @@
+import wikipedia
 
 class OutputGenerator():
 
-    def runRelevanceMode(self, dates, connections):
+    def runRelevanceMode(self, connections, topic):
+        topicLinks = wikipedia.page(topic).links
+        
+
+
+    def runLPMode(self, dates, connections):
         results = []
         sortedDates = sorted(dates, key=lambda x: x[1])
         for link in [x[0] for x in sortedDates]:

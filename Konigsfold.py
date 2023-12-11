@@ -12,8 +12,10 @@ TIMEMODE [Topic] [yearStart-yearEnd]/[before/after-[year]]
     - get Wikipedia titles for subtopics in the field, based on year of discovery
 
 RELEVANCEMODE [Topic] 
-    - get Wikipedia titles for topics in the field, in time order but grouped based on relevant subtopics
+    - get Wikipedia titles for subtopics in the field, grouped by associated subfields
 
+LPMODE [Topic]
+    - get a complete learning path of Wikipedia articles within the topic, sorted in time order but grouped into releavant subtopics
 """
 
 def run():
@@ -37,6 +39,8 @@ def run():
     if mode == "TIMEMODE":
         out.runTimeMode(dates, args[0])  
     if mode == "RELEVANCEMODE":
-        out.runRelevanceMode(dates, connections)
+        out.runRelevanceMode(connections, topic)
+    if mode == "LPMODE":
+        out.runLPMode(dates, connections)
 
 run()        

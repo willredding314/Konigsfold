@@ -13,16 +13,3 @@ class Grapher():
             except:
                 pass
         return outlinks
-    
-    def connectCorpusAtLevel(self, outlinks, connectedCorpus, topic, level):
-        if (level == 1):
-            print("Running " + topic)
-        try:
-            for link in outlinks[topic]:
-                if outlinks.get(link) is not None:
-                    print("HIT")
-                    connectedCorpus[topic] = connectedCorpus[topic] + [link]
-                    if (level < self.MAX_SEARCH_LEVEL):
-                        self.connectCorpusAtLevel(outlinks, connectedCorpus, link, level + 1)
-        except:
-            pass
