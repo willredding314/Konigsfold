@@ -11,11 +11,12 @@ dater = d.Dater()
 grapher = g.Grapher()
 out = o.OutputGenerator()
 
-file1 = open('evaluation-dates-topology.txt', 'r')
+file1 = open('evaluation-graph-entries-topology.txt', 'r')
 lines = file1.readlines()
-
+corpus = []
 for line in lines:
-    terms = line.split(":")
-    term = terms[0]
-    date = dater.dateDocument(term)
-    print(term + " " + str(date))
+    term = line.split("\n")[0]
+    corpus.append(term)
+
+graphs = grapher.connectCorpus(corpus, "Topology")
+out.runRelevanceMode(graphs, "Topology")

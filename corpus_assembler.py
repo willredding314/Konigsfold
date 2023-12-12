@@ -20,4 +20,4 @@ class CorpusAssembler():
         return subtopic_links
 
     def suitableCorpusValue(self, doc_title):
-        return len(doc_title) > 2 and "List of " not in doc_title
+        return len(doc_title) > 2 and "List of " not in doc_title and "identifier" not in doc_title

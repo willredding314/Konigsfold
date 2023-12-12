@@ -1,0 +1,39 @@
+{
+    "Algebraic topology": { - REL
+        "Abstract simplicial complex": { 
+            "Simplicial complex": {
+                "Betti number": {
+                    "Cohomology": {
+                        "Euler characteristic": { - REL
+                            "Geometric topology": { - REL
+                                "Knot theory": { - REL
+                                    "Alexander polynomial": { - REL
+                                        "Knot polynomial": {} - REL
+                                    }
+                                },
+                                "Low-dimensional topology": { - REL
+                                    "Manifold": { - REL
+                                        "Neighbourhood (mathematics)": { - REL 
+                                            "Neighbourhood system": {} - REL
+                                        },
+                                        "Poincare conjecture": { - REL
+                                            "Sphere": {}
+                                        }
+                                    }
+                                }
+                            },
+                            "Riemann-Hurwitz formula": {}
+                        }
+                    }
+                }
+            }
+        },
+        "Hairy ball theorem": { - REL
+            "Lefschetz fixed-point theorem": {} - REL
+        }
+    },
+    "Disentanglement puzzle": {}, - REL
+    "Physical cosmology": {}, - REL
+    "Seven Bridges of Konigsberg": {}, - REL
+    "Spacetime topology": {} - REL
+}

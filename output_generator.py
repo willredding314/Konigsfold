@@ -1,11 +1,37 @@
 import wikipedia
+import json
 
 class OutputGenerator():
 
     def runRelevanceMode(self, connections, topic):
         topicLinks = wikipedia.page(topic).links
-        
+        added_items = []
+        outputTrees = {}
+        for link in topicLinks:
+            if link not in added_items and link in connections.keys():
+                added_items.append(link)
+                outputTrees[link] = self.produceTree(connections, link, added_items)
+        self.writeTrees(outputTrees)
+        self.printTrees(outputTrees)
 
+    def produceTree(self, connections, topic, added_items):
+        outputTree = {}
+        links = connections.get(topic)
+        if links is not None:
+            for link in connections.get(topic):
+                if link not in added_items:
+                    added_items.append(link)
+                    outputTree[link] = self.produceTree(connections, link, added_items)
+        return outputTree        
+
+    def writeTrees(self, outputTrees):
+        jsonOut = json.dumps(outputTrees)
+        with open("relevance-trees-topology.txt", "w") as file:
+            file.write(jsonOut)
+
+    def printTrees(self, outputTrees):
+        jsonOut = json.dumps(outputTrees)
+        print(jsonOut)
 
     def runLPMode(self, dates, connections):
         results = []
@@ -15,9 +41,9 @@ class OutputGenerator():
                 results.append(link)
                 self.addPathways(link, connections, results)
         self.display(results)
+        self.write(results, "learning-path-topology")
 
     def addPathways(self, topic, connections, results):
-        print("Results are of size: " + str(len(results)))
         outLinks = connections.get(topic)
         if outLinks is not None:
             for outLink in outLinks:
@@ -44,3 +70,8 @@ class OutputGenerator():
         print("Here's your learning path: \n")
         for idx, result in enumerate(results):
             print(str(idx) + ". " + result)
+    
+    def write(self, results, file):
+        with open("learning-path-topology.txt", "w") as f:
+            for result in results:
+                f.write(result + "\n")
