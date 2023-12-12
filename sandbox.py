@@ -11,7 +11,7 @@ dater = d.Dater()
 grapher = g.Grapher()
 out = o.OutputGenerator()
 
-file1 = open('evaluation-graph-entries-topology.txt', 'r')
+file1 = open('evaluation-entries-topology.txt', 'r')
 lines = file1.readlines()
 corpus = []
 for line in lines:
@@ -19,4 +19,5 @@ for line in lines:
     corpus.append(term)
 
 graphs = grapher.connectCorpus(corpus, "Topology")
-out.runRelevanceMode(graphs, "Topology")
+dates = dater.dateCorpus(corpus)
+out.runLPMode(dates, graphs)

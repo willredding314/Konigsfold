@@ -36,12 +36,13 @@ class OutputGenerator():
     def runLPMode(self, dates, connections):
         results = []
         sortedDates = sorted(dates, key=lambda x: x[1])
+        print(sortedDates)
         for link in [x[0] for x in sortedDates]:
             if link not in results and len(connections[link]) != 0:
                 results.append(link)
                 self.addPathways(link, connections, results)
         self.display(results)
-        self.write(results, "learning-path-topology")
+        self.write(results, "evaluation-learning-path-topology")
 
     def addPathways(self, topic, connections, results):
         outLinks = connections.get(topic)
@@ -72,6 +73,6 @@ class OutputGenerator():
             print(str(idx) + ". " + result)
     
     def write(self, results, file):
-        with open("learning-path-topology.txt", "w") as f:
+        with open(file + ".txt", "w") as f:
             for result in results:
                 f.write(result + "\n")

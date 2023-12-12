@@ -1,27 +1,15 @@
-Real number
+Real number 
 Analytic geometry
 Abstract algebra
 Algebra
 Algebraic geometry
 Algebraic number theory
 Analytic number theory
-ArXiv (identifier)
-Bibcode (identifier)
-Doi (identifier)
-ISBN (identifier)
-OCLC (identifier)
-ISSN (identifier)
-Nature (journal)
-JSTOR (identifier)
-PMC (identifier)
-PMID (identifier)
-S2CID (identifier)
-Computer science
-Applied mathematics
+Arithmetic
 Algebraic topology
 Abstract simplicial complex
 Combinatorics
-Arithmetic
+Applied mathematics
 Arithmetic geometry
 Bernhard Riemann
 Circle
@@ -66,7 +54,10 @@ Closure (topology)
 Clopen set
 Boolean algebra (structure)
 Alexandrov topology
-Continuity (topology)
+Computer science
+Computational complexity theory
+Computational mathematics
+Commutative algebra
 Complex analysis
 Complex geometry
 Calabi–Yau manifold
@@ -84,6 +75,8 @@ Commutative diagram
 Exact sequence
 Combinatorial topology
 Connected space
+Continuity (topology)
+Continuity (mathematics)
 Continuum (topology)
 Differential topology
 Classification theorem
@@ -145,12 +138,6 @@ Homeomorphism
 Dehn twist
 Geometric topology
 Differential geometry
-Commutative algebra
-Computational complexity theory
-Computational mathematics
-Computational topology
-Digital topology
-Discrete mathematics
 Computer algebra
 Control theory
 Complex plane
@@ -158,12 +145,7 @@ Function (mathematics)
 Differential equation
 Diophantine geometry
 Discrete geometry
-Elementary algebra
-Engineering mathematics
-Linear algebra
-Euclidean geometry
-Finite geometry
-Foundations of mathematics
+Discrete mathematics
 Descriptive set theory
 Functional analysis
 Complete space
@@ -182,7 +164,23 @@ Graph theory
 Condensed matter physics
 Materials science
 Curlie
-Mathematical chemistry
+Engineering mathematics
+Linear algebra
+Elementary algebra
+Euclidean geometry
+Finite geometry
+Foundations of mathematics
+Future of mathematics
+Game theory
+Glossary of mathematical symbols
+Group theory
+Fourier series
+Harmonic analysis
+Hypercomplex analysis
+Mathematical physics
+Henri Poincaré
+Enrico Betti
+Topology
 Circuit topology
 Knot theory
 Henry Segerman
@@ -194,50 +192,38 @@ Group cohomology
 Extension problem
 H-space
 Homotopy equivalence
-Fibration
+Digital topology
+Computational topology
+Heegaard splitting
+Compression body
+Homeomorphic
 Homotopy
+Fibration
 Homotopy group
 Excision theorem
 Interior (topology)
 DE-9IM
 Geospatial topology
-Topology
-Compactness
+Line (geometry)
+Curvature
+Measure (mathematics)
 Extended real number line
-Homeomorphic
-Henri Poincaré
-Enrico Betti
-Vito Volterra
-Zbl (identifier)
-Springer Science+Business Media
-Group theory
-Fourier series
-Harmonic analysis
-Hypercomplex analysis
-Mathematical physics
-Future of mathematics
-Game theory
-Glossary of mathematical symbols
+Mathematical analysis
+Gottfried Leibniz
 History of mathematics
 History of the separation axioms
 John L. Kelley
 Metric space
 Bounded subset
-Mathematical analysis
-Gottfried Leibniz
-Curvature
-Measure (mathematics)
-Lindelöf space
-F-sigma set
-G-delta set
-Normal space
-Open cover
-Barycentric subdivision
-Grothendieck topology
-Michael Artin
-Deformation theory
-Germ (mathematics)
-Neighbourhood (mathematics)
+Metric (mathematics)
+Category of metric spaces
+Lipschitz continuity
+Compactness
+Finite intersection property
+Locally compact space
+Heine–Borel theorem
+Limit point
+First-countable space
 Open ball
 Alexander horned sphere
 Fractal dimension
@@ -254,40 +240,28 @@ Orientability
 Flat manifold
 Crystallographic group
 Orbifold
+Barycentric subdivision
 Immersion (mathematics)
 Fundamental class
 Poincaré duality
 Hassler Whitney
-Simon Donaldson
-Maxim Kontsevich
-Knot invariant
-Hyperbolic link
-Hyperbolic 3-manifold
-Heegaard splitting
-Compression body
-Hopf bundle
-Homotopy groups of spheres
-Hurewicz theorem
-Cone (topology)
-Finer topology
-Strong topology (polar topology)
-Jones polynomial
-Knot (mathematics)
-JSJ decomposition
-Incompressible surface
-Haken manifold
-I-bundle
+Michael Artin
+Deformation theory
+Germ (mathematics)
+Neighbourhood (mathematics)
+Open set
+Invariance of domain
 Klein bottle
 Handle decomposition
 Kirby calculus
 Manifold decomposition
-Link (knot theory)
-Knot complement
-Knot group
-Knot polynomial
-Linking number
-Invariant (mathematics)
-Mathematical object
+Haken manifold
+I-bundle
+Line bundle
+Homotopy theory
+Brown's representability theorem
+Mapping cylinder
+Injective function
 Information theory
 Homological algebra
 Five lemma
@@ -302,36 +276,55 @@ Simplex
 Inductive dimension
 Lebesgue covering dimension
 Dimension theory
-Line (geometry)
-Manhattan distance
-Metric (mathematics)
-Category of metric spaces
-Lipschitz continuity
-Injective function
+Knot (mathematics)
+Hyperbolic link
+Hyperbolic 3-manifold
+K-theory
+Invariant (mathematics)
+Knot invariant
+Jones polynomial
+Knot complement
+Knot group
+Knot polynomial
+Link (knot theory)
+Linking number
+Prime knot
+Skein relation
+Surgery theory
+H-cobordism theorem
+Poincaré conjecture
+Graph manifold
+JSJ decomposition
+Incompressible surface
+Lens space
+Spherical 3-manifold
+Seifert fiber space
+Homology sphere
+Hurewicz theorem
+Cone (topology)
+Finer topology
+Strong topology (polar topology)
+Separable space
+Hilbert cube
+Normal space
+G-delta set
+Polish space
+Kazimierz Kuratowski
+Set (mathematics)
 Mathematical logic
 Heyting algebra
 Lattice (order)
 Domain theory
 Order theory
-Homotopy theory
-Brown's representability theorem
-Mapping cylinder
-Mapping cone (topology)
-Pointed space
-Product (topology)
-Locally compact space
-Heine–Borel theorem
-Limit point
-First-countable space
-Quotient space (topology)
-Nicolas Bourbaki
-Set theory
 Informal mathematics
 Lists of mathematics topics
 Mathematical and theoretical biology
+Mathematical chemistry
 Mathematical economics
 Mathematical finance
 Mathematical optimization
+Mathematical object
+Number theory
 Mathematical psychology
 Mathematical sociology
 Multilinear algebra
@@ -339,7 +332,6 @@ Mathematical statistics
 Mathematicians
 Mathematics and art
 Mathematics education
-Number theory
 Numerical analysis
 Operations research
 Outline of mathematics
@@ -347,83 +339,60 @@ Philosophy of mathematics
 Jacques Hadamard
 Probability theory
 Quantum field theory
-Quantum Hall effect
-Topological quantum number
+Maxim Kontsevich
+Simon Donaldson
+Smooth structure
+Sheaf (mathematics)
+Grothendieck topology
+Open cover
+Lindelöf space
+F-sigma set
+T1 space
+Net (topology)
+Metric topology
+Hausdorff distance
+Springer Science+Business Media
+Subset
+Set theory
+Meagre set
+Nicolas Bourbaki
+Vaughan Jones
 Quantum topology
 Topological quantum field theory
 Four-manifold
-H-cobordism theorem
-Poincaré conjecture
-Graph manifold
-Hodge conjecture
-K-theory
-Invariance of domain
-Local homeomorphism
-Open set
-Kazimierz Kuratowski
-Polish space
-Hilbert cube
-Product topology
-Pointwise convergence
-Topology (structure)
-Johann Benedict Listing
-Listing number
-Topological invariant
-Cohomotopy group
-Set (mathematics)
-Subset
-Surjective function
-Type theory
-Statistics
-Real analysis
-P-adic analysis
-Solenoid (mathematics)
 Simplicial complex
 Polyhedral complex
 Polyhedron
 Ludwig Schläfli
 Polytope
 Möbius strip
-Lemniscate
-Torus
-Mapping class group
-Nielsen–Thurston classification
-Space-filling curve
-Real line
-Lower limit topology
+Johann Benedict Listing
+Listing number
+Topological invariant
+Cohomotopy group
+Pointed space
+Product (topology)
+Pointwise convergence
+Product topology
+Quotient space (topology)
+Mapping cone (topology)
+Sphere
+Homotopy groups of spheres
+Neighborhood (mathematics)
+Plane (geometry)
+Simply connected
 Long line (topology)
 Paracompact
 Pointless topology
 Mereotopology
 Point-set topology
-Maurice Fréchet
-Metrization theorems
-Regular space
+Lower limit topology
 Second-countable space
-Separable space
-Sorgenfrey plane
-Subspace (topology)
-Topological property
-Meagre set
-Nowhere dense
-T1 space
-Net (topology)
-Finite intersection property
-Pi-system
-Tychonoff's theorem
-Set-theoretic topology
+Regular space
+Separated sets
+Real line
 Paracompact space
 Separation axioms
-Separated sets
-Tychonoff space
-Topological group
-Topological abelian group
-Topological module
-Topological ring
-Topological vector space
-Open and closed maps
-Trivial topology
-T0 space
 Sober space
 Scott continuity
 Upper topology
@@ -433,22 +402,36 @@ Sierpinski space
 Path (topology)
 Ronald Brown (mathematician)
 Seifert–van Kampen theorem
-Neighborhood (mathematics)
-Plane (geometry)
-Simply connected
-Projective plane
-Real projective plane
-Roman surface
-Sphere
-Homology sphere
-Seifert fiber space
-Lens space
-Spherical 3-manifold
-Thurston elliptization conjecture
-Shape of the universe
-Physical cosmology
-String theory
-Topological string theory
+Orbit space
+Solenoid (mathematics)
+Topological dimension
+Topological group
+Subspace (topology)
+Topological property
+Semi-locally simply connected
+Universal cover
+Homotopy lifting property
+Vector bundle
+Surface (topology)
+Crumpling
+Compressive strength
+Mechanical engineering
+Mapping class group
+Nielsen–Thurston classification
+Space-filling curve
+Tietze extension theorem
+Uniform norm
+Real analysis
+P-adic analysis
+Topological vector space
+Nowhere dense
+Unit interval
+Open and closed maps
+Local homeomorphism
+Set-theoretic topology
+Ryszard Engelking
+Topological properties
+Topological quantum number
 Topological defect
 Topological entropy in physics
 Topological entropy
@@ -457,50 +440,29 @@ Topological conjugacy
 Topological dynamics
 Topological order
 Molecules
-Universal cover
-Homotopy lifting property
-Vector bundle
-Line bundle
-Orientable manifold
-Relative homology
-Mayer–Vietoris sequence
+Quantum Hall effect
+Topological string theory
+Statistics
+Recreational mathematics
+Systems science
+Theory of computation
+Timeline of mathematics
+Spectral sequence
 Sheaf cohomology
-Sheaf (mathematics)
-Nerve of an open covering
-Simplicial set
+Mayer–Vietoris sequence
+Relative homology
 Singular homology
 Steenrod algebra
 Stiefel–Whitney class
 Obstruction theory
-Surgery theory
-S-cobordism theorem
-Smooth structure
-Vector field
-Surface (topology)
-Crumpling
-Compressive strength
-Mechanical engineering
-Steiner surface
-Surface (mathematics)
-Uniformization theorem
-Whitehead torsion
-Signature (topology)
-Pontryagin class
+Topological K-theory
 Spectrum (homotopy theory)
 Smash product
-Wedge sum
-Van Kampen's theorem
-Orbit space
-Uniform space
-Ryszard Engelking
-Topological properties
-Semi-locally simply connected
-Winding number
-Topological degree theory
-Twist (mathematics)
-Writhe
-Prime knot
-Skein relation
+Torus
+Hopf bundle
+Projective plane
+Real projective plane
+Roman surface
 Torus knot
 Stretch factor
 Intrinsic metric
@@ -508,74 +470,89 @@ Trefoil knot
 Unknot
 Seifert surface
 Wild knot
-Urysohn's lemma
-Tietze extension theorem
-Uniform norm
-Topological tensor product
-Weak topology
-Subbase
+Writhe
+Twist (mathematics)
+Winding number
+String theory
+Physical cosmology
+Shape of the universe
+Nature (journal)
+Twisted K-theory
+Topological degree theory
+Tychonoff's theorem
+Tychonoff space
+Uniform space
 Uniform continuity
 Uniform isomorphism
 Uniform property
-Uniformly connected space
-Unit interval
-Topological K-theory
-Thom space
-Stable homotopy theory
-Suspension functor
-Universal coefficient theorem
-Splitting lemma
-Topological data analysis
-Persistent homology
-Spectral sequence
-Čech cohomology
-Topologist's sine curve
-Topological dimension
+T0 space
+Trivial topology
 Zariski topology
 Spectral space
 Peter Johnstone (mathematician)
-Sheaf space
-Weil conjectures
-Twisted K-theory
-Wacław Sierpiński
-Topological game
-Disentanglement puzzle
-Ultrafilter
-Stone's representation theorem for Boolean algebras
-Stone duality
-Steve Vickers (computer scientist)
-Samson Abramsky
-Up to
-Metric topology
-Hausdorff distance
-Lebesgue's number lemma
-P-adic numbers
-Ultrametric space
-Sequential space
-Recreational mathematics
-Systems science
-Theory of computation
-Timeline of mathematics
-Universal algebra
-Vaughan Jones
-Topological algebra
-Torus bundle
-Monodromy
-Thurston's geometrization conjecture
-Set intersection
+Topology (structure)
+Maurice Fréchet
 Relatively compact subspace
+Topological ring
+Topological abelian group
+Topological module
 Topology glossary
 Glossary of algebraic topology
 Hauptvermutung
 Analytic torsion
+Whitehead torsion
+S-cobordism theorem
 Intersection cohomology
+Simplicial set
+Thom space
+Stable homotopy theory
+Suspension functor
 Triangulation
+Universal coefficient theorem
+Splitting lemma
 Weak equivalence (homotopy theory)
-Sigma-compact space
-Noncommutative topology
-Whitehead manifold
-Whitehead theorem
-Künneth theorem
+Steve Vickers (computer scientist)
+Samson Abramsky
+Subbase
+Ultrametric space
+P-adic numbers
+Up to
+Urysohn's lemma
+Weak topology
+Uniformly connected space
+Wedge sum
+Van Kampen's theorem
+Vector field
+Čech cohomology
+Topologist's sine curve
+Surjective function
+Type theory
+Weil conjectures
+Universal algebra
+Ultrafilter
+Stone's representation theorem for Boolean algebras
+Stone duality
+Topological tensor product
+Wacław Sierpiński
+Topological game
+Disentanglement puzzle
+Torus bundle
+Monodromy
+Thurston's geometrization conjecture
+Thurston elliptization conjecture
+Uniformization theorem
+Orientable manifold
+Steiner surface
+Surface (mathematics)
+Sorgenfrey plane
+Metrization theorems
+Sequential space
+Topological algebra
+Plus construction
+Signature (topology)
+Pontryagin class
+Lemniscate
+Set intersection
 Moduli spaces
 Genus (topology)
 Topological graph theory
@@ -583,19 +560,32 @@ Real tree
 Topological combinatorics
 Sperner's lemma
 Topological quantum computer
+Lebesgue's number lemma
+Nerve of an open covering
+Topological data analysis
+Persistent homology
+Sheaf space
+Vito Volterra
 Lawson topology
 Set union
-Trigenus
-Heegaard genus
-Surface bundles over the circle
+Sigma-compact space
 Loop theorem
 Dehn's lemma
+Hodge conjecture
+Whitehead manifold
+Whitehead theorem
+Künneth theorem
+Noncommutative topology
 Pretzel
-Plus construction
+Surface bundles over the circle
+Trigenus
+Heegaard genus
 Properly discontinuous
+Pi-system
 Giulio Ascoli
+Manhattan distance
+Network topology
 Conformal geometry
-Continuity (mathematics)
 Duncan Haldane
 Electrophoresis
 Equivariant topology
@@ -620,7 +610,6 @@ Topological Galois theory
 Topological geometry
 Topology (disambiguation)
 Typology (disambiguation)
-Network topology
 Filter (topology)
 Locally constant function
 Fibre bundle
