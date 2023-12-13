@@ -66,7 +66,7 @@ class OutputGenerator():
         results = sorted(results, key=lambda x: x[1])
         results = [x[0] for x in dates]    
         self.display(results)
-        self.write(results, "philosophy-time-path")
+        self.write(results, "time-path")
 
     def display(self, results):
         print("Here's your learning path: \n")
