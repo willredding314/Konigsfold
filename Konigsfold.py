@@ -30,7 +30,7 @@ def run():
     out = o.OutputGenerator()
 
     corpus = corpus_assembler.assemble(topic)
-    print(" -- Assembled Corpus")
+    print(" -- Assembled Corpus - " + len(corpus))
     dates = dater.dateCorpus(corpus)
     print(" -- Dated Corpus")
     connections = grapher.connectCorpus(corpus, topic)
