@@ -42,7 +42,7 @@ class OutputGenerator():
                 results.append(link)
                 self.addPathways(link, connections, results)
         self.display(results)
-        self.write(results, "learning-path-philosophy")
+        self.write(results, "learning-path")
 
     def addPathways(self, topic, connections, results):
         outLinks = connections.get(topic)
@@ -58,7 +58,7 @@ class OutputGenerator():
         results = []
         if timeArg1 == "before":
             results = list(filter(lambda x: x[1] < int(timeArg2), dates))
-        elif timeArg1 == "before":
+        elif timeArg1 == "after":
             results = list(filter(lambda x: x[1] > int(timeArg2), dates))
         else:
             filteredBefore = list(filter(lambda x: x[1] < int(timeArg2), dates))
@@ -66,6 +66,7 @@ class OutputGenerator():
         results = sorted(results, key=lambda x: x[1])
         results = [x[0] for x in dates]    
         self.display(results)
+        self.write(results, "philosophy-time-path")
 
     def display(self, results):
         print("Here's your learning path: \n")
