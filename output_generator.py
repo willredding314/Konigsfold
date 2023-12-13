@@ -42,7 +42,7 @@ class OutputGenerator():
                 results.append(link)
                 self.addPathways(link, connections, results)
         self.display(results)
-        self.write(results, "learning-path-heat-transfer")
+        self.write(results, "learning-path-philosophy")
 
     def addPathways(self, topic, connections, results):
         outLinks = connections.get(topic)
